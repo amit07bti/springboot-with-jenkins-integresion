@@ -18,6 +18,7 @@ public class SpringbootWithJenkinsIntegresionApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test case executing...");
+        logger.info("Test case executing log statement...");
 		assertEquals(true, true);
 	}
 }
