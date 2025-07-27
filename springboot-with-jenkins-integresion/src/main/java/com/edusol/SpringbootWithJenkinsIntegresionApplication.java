@@ -12,11 +12,13 @@ import javax.annotation.PostConstruct;
 public class SpringbootWithJenkinsIntegresionApplication {
 	public static Logger logger= LoggerFactory.getLogger(SpringbootWithJenkinsIntegresionApplication.class);
 
+
+	//       todo java -jar jenkins.war --httpPort=9090
+
 	 @PostConstruct
 	 public  void  init(){
 		 logger.info("Application started... ");
 	 }
-
 
 	public static void main(String[] args) {
 		logger.info("Application executed... ");
