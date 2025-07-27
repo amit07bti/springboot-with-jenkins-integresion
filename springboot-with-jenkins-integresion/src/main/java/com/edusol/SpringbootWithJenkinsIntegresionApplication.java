@@ -22,7 +22,6 @@ public class SpringbootWithJenkinsIntegresionApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application executed... ");
-
 		SpringApplication.run(SpringbootWithJenkinsIntegresionApplication.class, args);
 	}
 
